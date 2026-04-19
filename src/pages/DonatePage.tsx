@@ -24,7 +24,7 @@ export function DonatePage() {
               Financiamento Coletivo
             </h2>
             <p className="text-on-surface-variant font-medium leading-relaxed text-lg mb-8">
-              Sua contribuição fortalece materiais, encontros comunitários e logística de campanha.
+              Sua contribuição fortalece materiais, encontros comunitários e logística da pré-campanha.
               Todo recurso deve ser acompanhado com transparência.
             </p>
             <div className="flex flex-wrap gap-3 text-on-surface">
@@ -47,7 +47,7 @@ export function DonatePage() {
             </div>
             <div className="aspect-square bg-white p-4 rounded-3xl flex items-center justify-center max-w-[200px] mx-auto border border-hairline">
               <div className="w-full h-full bg-slate-100 rounded-2xl flex items-center justify-center text-[10px] text-slate-400 font-mono text-center px-4">
-                QR Code PIX da campanha
+                QR Code PIX da pré-campanha
               </div>
             </div>
             <button

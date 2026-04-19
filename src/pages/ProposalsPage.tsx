@@ -23,9 +23,9 @@ export function ProposalsPage({ scrollToSection }: ProposalsPageProps) {
           <span className="text-primary">compromisso na Assembleia.</span>
         </h2>
         <p className="text-lg md:text-xl font-medium text-on-surface-variant leading-relaxed max-w-2xl border-l-4 border-primary pl-6 md:pl-8">
-          José Socorrista quer levar para o legislativo estadual a vivência de quem trabalha
+          José Socorrista defende uma atuação estadual com base na vivência de quem trabalha
           no atendimento à população, já passou pelo transporte pesado e conhece de perto
-          a realidade de quem depende de serviços públicos mais humanos e eficientes.
+          a realidade de quem precisa de serviços públicos mais humanos e eficientes.
         </p>
       </section>
 
@@ -41,8 +41,8 @@ export function ProposalsPage({ scrollToSection }: ProposalsPageProps) {
             <div className="space-y-8">
               <h4 className="label text-primary uppercase">Resposta para a população</h4>
               <p className="text-on-surface-variant font-medium text-base md:text-lg leading-relaxed">
-                Fiscalizar e cobrar melhorias nos serviços públicos que atendem a população de Roraima,
-                com foco em estrutura, equipamentos, prevenção, agilidade e respeito ao cidadão.
+                Cobrar melhorias nos serviços públicos que atendem a população de Roraima,
+                com foco em estrutura, equipamentos, prevenção, agilidade, transparência e respeito ao cidadão.
               </p>
               <ul className="space-y-6">
                 {[
@@ -75,7 +75,7 @@ export function ProposalsPage({ scrollToSection }: ProposalsPageProps) {
             <h3 className="display-copy text-3xl md:text-4xl mb-8">Capacitação Profissional</h3>
             <p className="font-medium text-on-surface-variant text-lg leading-relaxed mb-12">
               Incentivar formação continuada para servidores, trabalhadores da saúde,
-              profissionais de emergência, prevenção, transporte e equipes que atuam na proteção da vida.
+              profissionais de emergência, prevenção, transporte e equipes que atuam no cuidado com a população.
             </p>
           </div>
           <div className="space-y-6">
@@ -94,7 +94,7 @@ export function ProposalsPage({ scrollToSection }: ProposalsPageProps) {
             <h3 className="display-copy text-3xl md:text-4xl mb-6 leading-none">Defesa dos Profissionais</h3>
             <p className="text-on-surface-variant font-medium text-lg leading-relaxed">
               Pela sua trajetória no atendimento de urgência, no transporte e na representação sindical,
-              José conhece pautas de valorização, segurança no trabalho e respeito a quem serve a população.
+              José conhece pautas de valorização, segurança no trabalho e respeito a quem mantém os serviços funcionando.
             </p>
           </div>
           <div className="md:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-12">
@@ -110,7 +110,7 @@ export function ProposalsPage({ scrollToSection }: ProposalsPageProps) {
               <h4 className="label text-primary uppercase font-black">Roraima</h4>
               <p className="display-copy text-2xl leading-tight text-on-surface">Atuação próxima da população</p>
               <p className="text-on-surface-variant font-medium text-base md:text-lg leading-relaxed">
-                Ouvir bairros, municípios, trabalhadores e famílias para transformar problemas reais em cobranças públicas.
+                Ouvir bairros, municípios, trabalhadores e famílias para transformar problemas reais em pauta pública.
               </p>
             </div>
           </div>

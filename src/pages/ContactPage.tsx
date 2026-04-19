@@ -40,7 +40,7 @@ const volunteerRoles = [
   {
     icon: Users,
     title: "Campanha de Rua",
-    text: "Converse com moradores e ajude a levar a trajetória de José Socorrista aos bairros e comunidades.",
+    text: "Converse com moradores e ajude a levar a trajetória de José Socorrista aos bairros, municípios e comunidades.",
   },
   {
     icon: Megaphone,
@@ -130,9 +130,9 @@ export function ContactPage() {
           <div className="border border-hairline p-8 md:p-12 relative overflow-hidden bg-surface-container rounded-3xl">
             <p className="label opacity-60 mb-8 uppercase">Perfil público</p>
             <p className="text-xl font-sans font-semibold text-on-surface leading-relaxed mb-8">
-              José Carlos, conhecido como José Socorrista, tem 42 anos, é casado, pai de 5 filhos
-              e morador do Senador Hélio Campos. Antes da linha de frente, trabalhou como motorista
-              de caminhão e carreta. Hoje vive de perto a realidade do atendimento à população.
+              José Carlos, conhecido como José Socorrista, tem 42 anos, é de direita, casado,
+              pai de 5 filhos e morador do Senador Hélio Campos. Antes da linha de frente,
+              trabalhou como motorista de caminhão e carreta. Hoje vive de perto a realidade do atendimento à população.
             </p>
             <a
               href="https://www.instagram.com/jose_socorrista?igsh=dWV4ZzE0aHJ1bzhn"
@@ -337,7 +337,7 @@ export function ContactPage() {
                       />
                       <span>
                         Autorizo receber contato da equipe por WhatsApp, ligação ou e-mail sobre voluntariado,
-                        agenda, propostas e demandas da pré-campanha.
+                        agenda, propostas, visitas e demandas da pré-campanha.
                       </span>
                     </label>
                     {errors.consentimento && <p className="text-red-500 text-xs uppercase font-black tracking-[0.1em]">{errors.consentimento.message}</p>}

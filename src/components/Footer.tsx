@@ -61,13 +61,13 @@ export function Footer({ scrollToSection }: FooterProps) {
                   José Socorrista
                 </div>
                 <div className="label text-primary uppercase mt-2 font-black">
-                  Pré-candidato de direita a deputado estadual por Roraima
+                  Pré-candidato a deputado estadual por Roraima
                 </div>
               </div>
             </div>
 
             <p className="text-on-surface-variant max-w-lg leading-relaxed border-l-4 border-primary pl-6 text-base font-medium">
-              Quem vive a realidade da linha de frente sabe que cuidado público precisa de presença,
+              Quem vem da linha de frente sabe que cuidado público precisa de presença,
               preparo, respeito e resposta.
             </p>
 
@@ -105,7 +105,7 @@ export function Footer({ scrollToSection }: FooterProps) {
             </div>
 
             <div className="space-y-6">
-              <p className="label text-primary uppercase font-black">Campanha</p>
+              <p className="label text-primary uppercase font-black">Pré-campanha</p>
               <div className="flex flex-col gap-4 font-black tracking-[0.1em] text-xs uppercase text-on-surface-variant">
                 <a href="#propostas" className="hover:text-primary transition-colors">Transparência</a>
                 <a href="#contato" className="hover:text-primary transition-colors">Voluntariado</a>
@@ -163,7 +163,7 @@ export function Footer({ scrollToSection }: FooterProps) {
           </div>
           <div className="flex gap-8 md:gap-12 text-xs font-black tracking-[0.12em] text-primary">
             <span>#JoseSocorrista</span>
-            <span className="text-secondary">#BoaVista</span>
+            <span className="text-secondary">#Roraima</span>
           </div>
         </div>
       </div>

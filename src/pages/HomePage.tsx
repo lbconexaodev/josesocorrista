@@ -9,12 +9,12 @@ type HomePageProps = {
 };
 
 const profileHighlights = [
-  "Pré-candidato de direita a deputado estadual por Roraima",
+  "Pré-candidato a deputado estadual por Roraima",
   "José Carlos, conhecido como José Socorrista",
-  "42 anos, casado, pai de 5 filhos e morador do Senador Hélio Campos",
+  "De direita, casado e pai de 5 filhos",
+  "Morador do Senador Hélio Campos",
   "Do transporte pesado à linha de frente do cuidado público",
-  "Atua como condutor de ambulância no SAMU Boa Vista",
-  "Experiência na UTE Jaguatirica II e na rotina de urgência",
+  "Vivência no SAMU Boa Vista, na UTE Jaguatirica II e na rotina de urgência",
 ];
 
 const pillars = [
@@ -22,21 +22,21 @@ const pillars = [
     title: "Urgência e Saúde",
     icon: Stethoscope,
     description:
-      "Propostas inspiradas na rotina de quem conhece a linha de frente e sabe onde a resposta pública precisa melhorar.",
+      "Propostas inspiradas na rotina de quem conhece a linha de frente e vê onde o atendimento público precisa melhorar.",
     image: images.health,
   },
   {
     title: "Valorização Profissional",
     icon: Users,
     description:
-      "Defesa de melhores condições para quem trabalha na saúde, emergência, segurança, transporte, prevenção e cuidado com a população.",
+      "Valorização de quem trabalha na saúde, emergência, segurança, transporte, prevenção e cuidado com a população.",
     image: images.safety,
   },
   {
     title: "Prevenção e Resposta",
     icon: Flame,
     description:
-      "Olhar atento para prevenção, orientação comunitária e preparo das equipes que protegem vidas em Roraima.",
+      "Mais atenção à prevenção, orientação comunitária e preparo das equipes que protegem vidas em Roraima.",
     image: images.transparency,
   },
 ];
@@ -54,7 +54,7 @@ export function HomePage({ scrollToSection }: HomePageProps) {
         <div className="absolute inset-0 z-0">
           <img
             src={images.portrait}
-            alt="José Socorrista em foto de campanha"
+            alt="José Socorrista em foto da pré-campanha"
             className="w-full h-full object-cover object-[64%_22%] md:object-[63%_20%] scale-105 group-hover:scale-100 transition-all duration-[2000ms]"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/45 to-black/5 dark:from-black/75 dark:via-black/35 dark:to-transparent" />
@@ -69,7 +69,7 @@ export function HomePage({ scrollToSection }: HomePageProps) {
               transition={{ delay: 0.2 }}
               className="label text-white mb-6 bg-black/70 hidden sm:inline-block px-4 py-1 rounded-full border border-white/20 uppercase shadow-xl"
             >
-              Pré-candidato de direita a deputado estadual por Roraima
+              Pré-candidato a deputado estadual por Roraima
             </motion.div>
             <motion.h1
               initial={{ y: 30, opacity: 0 }}
@@ -82,8 +82,8 @@ export function HomePage({ scrollToSection }: HomePageProps) {
             </motion.h1>
             <div className="flex flex-col md:flex-row md:items-end justify-between gap-10 md:gap-12 border-t border-white/30 pt-10 md:pt-12">
               <p className="text-readable-muted text-base font-medium max-w-xl leading-relaxed">
-                José Carlos, o José Socorrista, não fala de teoria. Conhece a realidade de quem
-                trabalha duro, vive a urgência de perto e sabe onde o serviço público precisa melhorar.
+                José Carlos, o José Socorrista, é de direita e não fala de teoria.
+                Vem do trabalho duro, vive a urgência de perto e conhece onde o serviço público precisa melhorar.
               </p>
               <div className="flex flex-wrap gap-6 md:gap-8">
                 <div className="text-left md:text-right">
@@ -158,7 +158,7 @@ export function HomePage({ scrollToSection }: HomePageProps) {
             <div className="aspect-[4/3] border border-hairline overflow-hidden p-2 bg-surface dark:bg-[#0a0a0a] rounded-3xl">
               <img
                 src={images.volunteer}
-                alt="José Socorrista em arte de campanha"
+                alt="José Socorrista em arte da pré-campanha"
                 className="w-full h-full object-cover object-center rounded-2xl"
               />
             </div>
@@ -179,7 +179,7 @@ export function HomePage({ scrollToSection }: HomePageProps) {
             </h2>
             <p className="text-on-surface-variant font-medium text-lg leading-relaxed max-w-xl">
               Antes de vestir a farda do socorro, trabalhou como motorista de caminhão e carreta.
-              Essa vivência aproxima sua caminhada de quem trabalha todos os dias para sustentar a família.
+              Essa caminhada aproxima sua pré-campanha de quem acorda cedo, trabalha duro e sustenta a família.
             </p>
             <div className="grid sm:grid-cols-2 gap-4">
               <div className="border border-hairline rounded-2xl p-5 bg-surface">
@@ -193,7 +193,7 @@ export function HomePage({ scrollToSection }: HomePageProps) {
                 <Shield className="w-6 h-6 text-primary mb-4" />
                 <p className="display-copy text-xl mb-2">Representação</p>
                 <p className="text-base text-on-surface-variant font-medium leading-relaxed">
-                  Defesa de profissionais de diferentes áreas que sustentam o serviço público e a rotina das famílias em Roraima.
+                  Defesa de trabalhadores de diferentes áreas que sustentam o serviço público e a rotina das famílias em Roraima.
                 </p>
               </div>
             </div>
