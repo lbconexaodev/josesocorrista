@@ -9,10 +9,12 @@ type HomePageProps = {
 };
 
 const profileHighlights = [
-  "Pré-candidato a vereador por Boa Vista",
+  "Pré-candidato de direita a deputado estadual por Roraima",
+  "José Carlos, conhecido como José Socorrista",
+  "42 anos, casado, pai de 5 filhos e morador do Senador Hélio Campos",
+  "Do transporte pesado à linha de frente do cuidado público",
   "Atua como condutor de ambulância no SAMU Boa Vista",
-  "Representação sindical na área de veículos de emergência em Roraima",
-  "Bombeiro civil profissional",
+  "Experiência na UTE Jaguatirica II e na rotina de urgência",
 ];
 
 const pillars = [
@@ -20,21 +22,21 @@ const pillars = [
     title: "Urgência e Saúde",
     icon: Stethoscope,
     description:
-      "Propostas inspiradas na rotina de quem conhece o atendimento pré-hospitalar e sabe onde a resposta precisa melhorar.",
+      "Propostas inspiradas na rotina de quem conhece a linha de frente e sabe onde a resposta pública precisa melhorar.",
     image: images.health,
   },
   {
     title: "Valorização Profissional",
     icon: Users,
     description:
-      "Defesa de melhores condições para todos os profissionais que atuam na saúde, emergência, segurança, prevenção e cuidado com a população.",
+      "Defesa de melhores condições para quem trabalha na saúde, emergência, segurança, transporte, prevenção e cuidado com a população.",
     image: images.safety,
   },
   {
     title: "Prevenção e Resposta",
     icon: Flame,
     description:
-      "Olhar atento para prevenção, orientação comunitária e preparo das equipes que protegem vidas em Boa Vista.",
+      "Olhar atento para prevenção, orientação comunitária e preparo das equipes que protegem vidas em Roraima.",
     image: images.transparency,
   },
 ];
@@ -67,7 +69,7 @@ export function HomePage({ scrollToSection }: HomePageProps) {
               transition={{ delay: 0.2 }}
               className="label text-white mb-6 bg-black/70 hidden sm:inline-block px-4 py-1 rounded-full border border-white/20 uppercase shadow-xl"
             >
-              Pré-candidato a vereador por Boa Vista
+              Pré-candidato de direita a deputado estadual por Roraima
             </motion.div>
             <motion.h1
               initial={{ y: 30, opacity: 0 }}
@@ -80,13 +82,13 @@ export function HomePage({ scrollToSection }: HomePageProps) {
             </motion.h1>
             <div className="flex flex-col md:flex-row md:items-end justify-between gap-10 md:gap-12 border-t border-white/30 pt-10 md:pt-12">
               <p className="text-readable-muted text-base font-medium max-w-xl leading-relaxed">
-                Atua como condutor de ambulância no SAMU Boa Vista, é bombeiro civil profissional
-                e conhece a realidade de quem trabalha no atendimento à população.
+                José Carlos, o José Socorrista, não fala de teoria. Conhece a realidade de quem
+                trabalha duro, vive a urgência de perto e sabe onde o serviço público precisa melhorar.
               </p>
               <div className="flex flex-wrap gap-6 md:gap-8">
                 <div className="text-left md:text-right">
-                  <p className="label text-white/75">Cidade</p>
-                  <p className="display-copy text-white text-xl hero-readable">Boa Vista</p>
+                  <p className="label text-white/75">Moradia</p>
+                  <p className="display-copy text-white text-xl hero-readable">Senador Hélio Campos</p>
                 </div>
                 <div className="text-left md:text-right">
                   <p className="label text-white/75">Causa</p>
@@ -113,7 +115,7 @@ export function HomePage({ scrollToSection }: HomePageProps) {
         <div className="flex whitespace-nowrap gap-24 animate-marquee items-center text-on-primary">
           {[1, 2, 3, 4].map((item) => (
             <span key={item} className="display-copy text-xl md:text-2xl tracking-[0.08em] md:tracking-[0.12em] uppercase">
-              • Boa Vista • Saúde • Emergência • Profissionais • Bombeiro Civil •
+              • Roraima • Saúde • Emergência • Profissionais • Família • Trabalho •
             </span>
           ))}
         </div>
@@ -172,12 +174,12 @@ export function HomePage({ scrollToSection }: HomePageProps) {
           </div>
           <div className="space-y-10 md:space-y-12">
             <h2 className="display-copy text-4xl md:text-7xl text-on-surface leading-tight">
-              Da emergência para a <br />
-              <span className="text-primary">Câmara.</span>
+              Da linha de frente para a <br />
+              <span className="text-primary">Assembleia.</span>
             </h2>
             <p className="text-on-surface-variant font-medium text-lg leading-relaxed max-w-xl">
-              A proposta é levar para o mandato a visão de quem trabalha no socorro, conhece a
-              rotina dos profissionais de emergência e acompanha de perto as necessidades da população.
+              Antes de vestir a farda do socorro, trabalhou como motorista de caminhão e carreta.
+              Essa vivência aproxima sua caminhada de quem trabalha todos os dias para sustentar a família.
             </p>
             <div className="grid sm:grid-cols-2 gap-4">
               <div className="border border-hairline rounded-2xl p-5 bg-surface">
@@ -191,7 +193,7 @@ export function HomePage({ scrollToSection }: HomePageProps) {
                 <Shield className="w-6 h-6 text-primary mb-4" />
                 <p className="display-copy text-xl mb-2">Representação</p>
                 <p className="text-base text-on-surface-variant font-medium leading-relaxed">
-                  Defesa de profissionais que atuam na emergência, saúde, prevenção e proteção da vida em Roraima.
+                  Defesa de profissionais de diferentes áreas que sustentam o serviço público e a rotina das famílias em Roraima.
                 </p>
               </div>
             </div>

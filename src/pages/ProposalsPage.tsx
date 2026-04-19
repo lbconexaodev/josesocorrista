@@ -16,16 +16,16 @@ export function ProposalsPage({ scrollToSection }: ProposalsPageProps) {
     >
       <section className="max-w-4xl pt-8 md:pt-12">
         <span className="display-copy text-primary mb-6 block text-3xl sm:text-4xl md:text-5xl leading-none">
-          Propostas para Boa Vista
+          Propostas para Roraima
         </span>
         <h2 className="display-copy text-4xl sm:text-5xl md:text-8xl text-on-surface leading-[0.98] md:leading-[0.95] mb-8 md:mb-12">
-          Experiência no socorro, <br />
-          <span className="text-primary">compromisso na Câmara.</span>
+          Experiência na linha de frente, <br />
+          <span className="text-primary">compromisso na Assembleia.</span>
         </h2>
         <p className="text-lg md:text-xl font-medium text-on-surface-variant leading-relaxed max-w-2xl border-l-4 border-primary pl-6 md:pl-8">
-          José Socorrista quer levar para o legislativo municipal a vivência de quem trabalha
-          no atendimento de urgência, atua como bombeiro civil profissional e conhece de perto
-          os desafios de quem protege a população.
+          José Socorrista quer levar para o legislativo estadual a vivência de quem trabalha
+          no atendimento à população, já passou pelo transporte pesado e conhece de perto
+          a realidade de quem depende de serviços públicos mais humanos e eficientes.
         </p>
       </section>
 
@@ -41,14 +41,14 @@ export function ProposalsPage({ scrollToSection }: ProposalsPageProps) {
             <div className="space-y-8">
               <h4 className="label text-primary uppercase">Resposta para a população</h4>
               <p className="text-on-surface-variant font-medium text-base md:text-lg leading-relaxed">
-                Fiscalizar e cobrar melhorias nos serviços públicos que atendem a população,
+                Fiscalizar e cobrar melhorias nos serviços públicos que atendem a população de Roraima,
                 com foco em estrutura, equipamentos, prevenção, agilidade e respeito ao cidadão.
               </p>
               <ul className="space-y-6">
                 {[
                   "Melhor estrutura para atendimento público",
                   "Condições adequadas para equipes de linha de frente",
-                  "Transparência nos indicadores de saúde e emergência",
+                  "Transparência nos indicadores de saúde, emergência e atendimento público",
                 ].map((item) => (
                   <li key={item} className="flex items-center gap-4 text-sm tracking-[0.08em] uppercase font-black leading-relaxed">
                     <CheckCircle className="w-5 h-5 text-primary shrink-0" />
@@ -63,7 +63,7 @@ export function ProposalsPage({ scrollToSection }: ProposalsPageProps) {
               <p className="label opacity-60 uppercase">Saúde com dignidade</p>
               <div className="h-px w-full bg-hairline" />
               <p className="text-base md:text-lg font-medium text-on-surface-variant leading-relaxed">
-                "A população precisa de serviços acessíveis, humanos e bem estruturados."
+                "Quem vem da urgência e emergência sabe o que precisa ser feito."
               </p>
             </div>
           </div>
@@ -75,7 +75,7 @@ export function ProposalsPage({ scrollToSection }: ProposalsPageProps) {
             <h3 className="display-copy text-3xl md:text-4xl mb-8">Capacitação Profissional</h3>
             <p className="font-medium text-on-surface-variant text-lg leading-relaxed mb-12">
               Incentivar formação continuada para servidores, trabalhadores da saúde,
-              profissionais de emergência, bombeiros civis e equipes que atuam na proteção da vida.
+              profissionais de emergência, prevenção, transporte e equipes que atuam na proteção da vida.
             </p>
           </div>
           <div className="space-y-6">
@@ -93,8 +93,8 @@ export function ProposalsPage({ scrollToSection }: ProposalsPageProps) {
             </div>
             <h3 className="display-copy text-3xl md:text-4xl mb-6 leading-none">Defesa dos Profissionais</h3>
             <p className="text-on-surface-variant font-medium text-lg leading-relaxed">
-              Pela sua trajetória no atendimento de urgência e na representação sindical, José
-              conhece pautas de valorização, segurança no trabalho e respeito a quem serve a população.
+              Pela sua trajetória no atendimento de urgência, no transporte e na representação sindical,
+              José conhece pautas de valorização, segurança no trabalho e respeito a quem serve a população.
             </p>
           </div>
           <div className="md:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-12">
@@ -107,10 +107,10 @@ export function ProposalsPage({ scrollToSection }: ProposalsPageProps) {
               </p>
             </div>
             <div className="border border-outline bg-surface p-6 md:p-8 rounded-2xl space-y-5 shadow-sm">
-              <h4 className="label text-primary uppercase font-black">Boa Vista</h4>
-              <p className="display-copy text-2xl leading-tight text-on-surface">Mandato próximo da população</p>
+              <h4 className="label text-primary uppercase font-black">Roraima</h4>
+              <p className="display-copy text-2xl leading-tight text-on-surface">Atuação próxima da população</p>
               <p className="text-on-surface-variant font-medium text-base md:text-lg leading-relaxed">
-                Ouvir bairros, trabalhadores e famílias para transformar problemas reais em cobranças públicas.
+                Ouvir bairros, municípios, trabalhadores e famílias para transformar problemas reais em cobranças públicas.
               </p>
             </div>
           </div>

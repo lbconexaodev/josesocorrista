@@ -24,7 +24,7 @@ export function DonatePage() {
               Financiamento Coletivo
             </h2>
             <p className="text-on-surface-variant font-medium leading-relaxed text-lg mb-8">
-              Sua contribuição fortalece materiais, encontros de bairro e logística de campanha.
+              Sua contribuição fortalece materiais, encontros comunitários e logística de campanha.
               Todo recurso deve ser acompanhado com transparência.
             </p>
             <div className="flex flex-wrap gap-3 text-on-surface">

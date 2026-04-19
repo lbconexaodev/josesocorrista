@@ -8,7 +8,7 @@ const slides = [
   {
     image: images.portrait,
     label: "Compromisso",
-    title: "Experiência de quem vive a urgência",
+    title: "Experiência de quem vive a realidade",
     imageClass: "object-[64%_24%]",
   },
   { image: images.meeting, label: "Equipe", title: "Força coletiva por você" },

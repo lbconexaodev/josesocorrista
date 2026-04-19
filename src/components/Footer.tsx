@@ -43,7 +43,7 @@ export function Footer({ scrollToSection }: FooterProps) {
     >
       <motion.div style={{ y }} className="absolute inset-0 pointer-events-none opacity-[0.035] select-none">
         <span className="display-copy absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-[24vw] font-black text-on-surface whitespace-nowrap uppercase">
-          Boa Vista
+          Roraima
         </span>
       </motion.div>
 
@@ -61,14 +61,14 @@ export function Footer({ scrollToSection }: FooterProps) {
                   José Socorrista
                 </div>
                 <div className="label text-primary uppercase mt-2 font-black">
-                  Pré-candidato a vereador por Boa Vista
+                  Pré-candidato de direita a deputado estadual por Roraima
                 </div>
               </div>
             </div>
 
             <p className="text-on-surface-variant max-w-lg leading-relaxed border-l-4 border-primary pl-6 text-base font-medium">
-              Quem conhece a urgência sabe que cuidado público precisa de presença,
-              preparo e resposta rápida.
+              Quem vive a realidade da linha de frente sabe que cuidado público precisa de presença,
+              preparo, respeito e resposta.
             </p>
 
             <div className="flex gap-4 pt-2">

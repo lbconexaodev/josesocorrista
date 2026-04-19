@@ -4,7 +4,7 @@
 
 # José Socorrista
 
-Site da pré-campanha de José Socorrista em Boa Vista.
+Site da pré-campanha de José Socorrista para deputado estadual por Roraima.
 
 ## Repositório
 

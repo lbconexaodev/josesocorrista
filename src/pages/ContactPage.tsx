@@ -40,7 +40,7 @@ const volunteerRoles = [
   {
     icon: Users,
     title: "Campanha de Rua",
-    text: "Converse com moradores de Boa Vista e ajude a levar a trajetória de José Socorrista aos bairros.",
+    text: "Converse com moradores e ajude a levar a trajetória de José Socorrista aos bairros e comunidades.",
   },
   {
     icon: Megaphone,
@@ -106,7 +106,7 @@ export function ContactPage() {
           <div>
             <p className="label mb-6 uppercase">Unir-se ao movimento</p>
             <h2 className="display-copy text-5xl md:text-7xl text-on-surface leading-[0.95]">
-              Boa Vista precisa <br />
+              Roraima precisa <br />
               <span className="text-primary">participar.</span>
             </h2>
           </div>
@@ -130,8 +130,9 @@ export function ContactPage() {
           <div className="border border-hairline p-8 md:p-12 relative overflow-hidden bg-surface-container rounded-3xl">
             <p className="label opacity-60 mb-8 uppercase">Perfil público</p>
             <p className="text-xl font-sans font-semibold text-on-surface leading-relaxed mb-8">
-              José Socorrista atua como condutor de ambulância no SAMU Boa Vista, é bombeiro civil
-              profissional e tem trajetória de representação sindical na área de emergência em Roraima.
+              José Carlos, conhecido como José Socorrista, tem 42 anos, é casado, pai de 5 filhos
+              e morador do Senador Hélio Campos. Antes da linha de frente, trabalhou como motorista
+              de caminhão e carreta. Hoje vive de perto a realidade do atendimento à população.
             </p>
             <a
               href="https://www.instagram.com/jose_socorrista?igsh=dWV4ZzE0aHJ1bzhn"
@@ -223,7 +224,7 @@ export function ContactPage() {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-10 text-on-surface">
                     <div className="space-y-3">
                       <label className="label uppercase" htmlFor="bairro">
-                        Bairro ou comunidade
+                        Bairro, município ou comunidade
                       </label>
                       <input
                         {...register("bairro")}
@@ -232,7 +233,7 @@ export function ContactPage() {
                         className={`w-full bg-surface border-0 border-b ${
                           errors.bairro ? "border-red-500" : "border-hairline"
                         } focus:border-primary focus:ring-0 px-4 py-4 font-sans font-semibold text-lg rounded-2xl`}
-                        placeholder="Ex.: Pintolândia, Raiar do Sol"
+                        placeholder="Ex.: Senador Hélio Campos, Caracaraí"
                       />
                       {errors.bairro && <p className="text-red-500 text-xs uppercase font-black tracking-[0.1em]">{errors.bairro.message}</p>}
                     </div>
@@ -322,7 +323,7 @@ export function ContactPage() {
                       className={`w-full bg-surface border-0 border-b ${
                         errors.mensagem ? "border-red-500" : "border-hairline"
                       } focus:border-primary focus:ring-0 font-sans font-semibold text-lg min-h-[120px] p-6 rounded-2xl`}
-                      placeholder="Conte o que você gostaria de melhorar em Boa Vista ou como pode ajudar."
+                      placeholder="Conte o que você gostaria de melhorar em Roraima ou como pode ajudar."
                     />
                     {errors.mensagem && <p className="text-red-500 text-xs uppercase font-black tracking-[0.1em]">{errors.mensagem.message}</p>}
                   </div>
