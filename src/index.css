@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,800;9..144,900&family=Public+Sans:wght@400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Public Sans', Arial, sans-serif;
+  --font-serif: 'Fraunces', Georgia, serif;
+  
+  /* Light mode uses darker campaign colors so text remains readable. */
+  --color-primary: #007f8c;
+  --color-primary-container: #d9fbff;
+  --color-secondary: #9a7600;
+  --color-secondary-container: #fff1a6;
+  --color-tertiary: #587000;
+  --color-tertiary-container: #e6f9ff;
+  --color-tertiary-fixed: #007f8c;
+  --color-tertiary-fixed-dim: #00606a;
+  --color-on-primary: #ffffff;
+  --color-on-primary-container: #00333d;
+  --color-on-tertiary: #ffffff;
+  --color-on-tertiary-fixed: #0a0a0a;
+  --color-on-tertiary-container: #0f172a;
+  --color-surface: #f7fafb;
+  --color-surface-container: #ffffff;
+  --color-surface-container-low: #f1f5f9;
+  --color-surface-container-high: #e2e8f0;
+  --color-surface-container-highest: #cbd5e1;
+  --color-surface-container-lowest: #ffffff;
+  --color-on-surface: #07131f;
+  --color-on-surface-variant: #334155;
+  --color-outline: rgba(7, 19, 31, 0.16);
+  --color-outline-variant: rgba(7, 19, 31, 0.16);
+
+  --animate-marquee: marquee 30s linear infinite;
+
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+}
+
+/* Dark Mode - Sophisticated Black */
+:root {
+  &.dark {
+    --color-primary: #00f2ff;
+    --color-primary-container: #00333d;
+    --color-secondary: #fce300;
+    --color-secondary-container: #2b2a00;
+    --color-tertiary: #ccff00;
+    --color-tertiary-fixed: #00f2ff;
+    --color-tertiary-fixed-dim: #00f2ff;
+    --color-on-primary: #000000;
+    --color-on-primary-container: #ffffff;
+    --color-on-tertiary: #000000;
+    --color-on-tertiary-container: #ffffff;
+    --color-surface: #0a0a0a;
+    --color-surface-container: #151515;
+    --color-surface-container-low: #0a0a0a;
+    --color-surface-container-high: #1a1a1a;
+    --color-surface-container-highest: #222222;
+    --color-surface-container-lowest: #0a0a0a;
+    --color-on-surface: #ffffff;
+    --color-on-surface-variant: rgba(255, 255, 255, 0.5);
+    --color-outline: rgba(255, 255, 255, 0.1);
+    --color-outline-variant: rgba(255, 255, 255, 0.1);
+    --color-tertiary-container: #111111;
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-surface text-on-surface font-sans;
+  }
+  h1, h2, h3, h4, .serif {
+    @apply font-serif;
+  }
+}
+
+@layer utilities {
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  .border-hairline {
+    @apply border border-outline;
+  }
+  .label {
+    font-family: var(--font-sans);
+    font-size: 0.78rem;
+    line-height: 1.35;
+    font-weight: 900;
+    letter-spacing: 0.12em;
+  }
+  .sidebar-title {
+    font-family: var(--font-serif);
+    font-size: clamp(1.9rem, 4vw, 3.4rem);
+    line-height: 0.95;
+    font-weight: 900;
+    letter-spacing: -0.02em;
+    color: var(--color-on-surface);
+  }
+  .display-copy {
+    @apply font-serif font-black tracking-tight;
+  }
+  .hero-readable {
+    text-shadow: 0 4px 24px rgba(0, 0, 0, 0.75), 0 1px 2px rgba(0, 0, 0, 0.9);
+  }
+  .text-readable-muted {
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 0 2px 14px rgba(0, 0, 0, 0.7);
+  }
+}
