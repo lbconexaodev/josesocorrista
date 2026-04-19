@@ -4,6 +4,8 @@ import { motion, useScroll, useTransform } from "motion/react";
 import type { ScrollToSection } from "../App";
 import { images } from "../data/images";
 
+const baseUrl = import.meta.env.BASE_URL;
+
 type FooterProps = {
   scrollToSection: ScrollToSection;
 };
@@ -125,7 +127,7 @@ export function Footer({ scrollToSection }: FooterProps) {
             <motion.video
               style={{ y: videoY }}
               className="absolute inset-0 h-[120%] w-full object-cover opacity-70"
-              src="/videos/logo-lb-conexao-dev-explosao.mp4"
+              src={`${baseUrl}videos/logo-lb-conexao-dev-explosao.mp4`}
               autoPlay
               muted
               loop
@@ -141,7 +143,7 @@ export function Footer({ scrollToSection }: FooterProps) {
 
               <div className="mx-auto flex h-24 w-24 items-center justify-center rounded-2xl border border-white/20 bg-white shadow-xl">
                 <img
-                  src="/img/logo-dev.png"
+                  src={`${baseUrl}img/logo-dev.png`}
                   alt="LB Conexão Dev"
                   className="h-20 w-20 rounded-xl object-contain"
                 />
