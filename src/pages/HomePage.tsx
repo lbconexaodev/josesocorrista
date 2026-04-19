@@ -87,10 +87,6 @@ export function HomePage({ scrollToSection }: HomePageProps) {
               </p>
               <div className="flex flex-wrap gap-6 md:gap-8">
                 <div className="text-left md:text-right">
-                  <p className="label text-white/75">Moradia</p>
-                  <p className="display-copy text-white text-xl hero-readable">Senador Hélio Campos</p>
-                </div>
-                <div className="text-left md:text-right">
                   <p className="label text-white/75">Causa</p>
                   <p className="display-copy text-white text-xl hero-readable">Urgência e cuidado</p>
                 </div>
