@@ -24,7 +24,6 @@ const footerLinks = [
   { label: "Portfólio", target: "portfolio" },
   { label: "Propostas", target: "propostas" },
   { label: "Contato", target: "contato" },
-  { label: "Doação", target: "doacao" },
 ];
 
 export function Footer({ scrollToSection }: FooterProps) {
@@ -107,7 +106,7 @@ export function Footer({ scrollToSection }: FooterProps) {
             <div className="space-y-6">
               <p className="label text-primary uppercase font-black">Pré-campanha</p>
               <div className="flex flex-col gap-4 font-black tracking-[0.1em] text-xs uppercase text-on-surface-variant">
-                <a href="#propostas" className="hover:text-primary transition-colors">Transparência</a>
+                <a href="#propostas" className="hover:text-primary transition-colors">Propostas</a>
                 <a href="#contato" className="hover:text-primary transition-colors">Voluntariado</a>
                 <a
                   href="https://www.instagram.com/jose_socorrista?igsh=dWV4ZzE0aHJ1bzhn"

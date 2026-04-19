@@ -1,11 +1,8 @@
 import { useEffect, useState } from "react";
-import { MessageCircle } from "lucide-react";
 import { BottomNav } from "./components/BottomNav";
-import { FloatingDonateButton } from "./components/FloatingDonateButton";
 import { Footer } from "./components/Footer";
 import { Navbar } from "./components/Navbar";
 import { ContactPage } from "./pages/ContactPage";
-import { DonatePage } from "./pages/DonatePage";
 import { HomePage } from "./pages/HomePage";
 import { ProposalsPage } from "./pages/ProposalsPage";
 
@@ -45,18 +42,10 @@ export default function App() {
         <section id="contato" className="pt-24 md:pt-32">
           <ContactPage />
         </section>
-
-        <section id="doacao" className="mt-24 md:mt-32">
-          <DonatePage />
-        </section>
       </main>
 
       <Footer scrollToSection={scrollToSection} />
       <BottomNav scrollToSection={scrollToSection} />
-      <FloatingDonateButton
-        icon={<MessageCircle className="w-5 h-5" />}
-        onClick={() => scrollToSection("contato")}
-      />
     </div>
   );
 }

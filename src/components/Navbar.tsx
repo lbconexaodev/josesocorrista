@@ -51,13 +51,14 @@ export function Navbar({ scrollToSection, isDark, toggleDark }: NavbarProps) {
           >
             {isDark ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
           </button>
-          <button
-            onClick={() => scrollToSection("doacao")}
+          <a
+            href="https://www.instagram.com/jose_socorrista?igsh=dWV4ZzE0aHJ1bzhn"
+            target="_blank"
+            rel="noopener noreferrer"
             className="border border-primary text-primary hover:bg-primary hover:text-on-primary font-black px-5 md:px-8 py-3 transition-all active:scale-95 text-[11px] tracking-[0.16em] uppercase rounded-full"
-            type="button"
           >
-            Doar
-          </button>
+            Instagram Oficial
+          </a>
         </div>
       </div>
     </header>
