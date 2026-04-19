@@ -13,7 +13,7 @@ const profileHighlights = [
   "José Carlos, conhecido como José Socorrista",
   "De direita, casado e pai de 5 filhos",
   "Morador do Senador Hélio Campos",
-  "Do transporte pesado à linha de frente do cuidado público",
+  "Do trabalho nas estradas à linha de frente do cuidado público",
   "Vivência no SAMU Boa Vista, na UTE Jaguatirica II e na rotina de urgência",
 ];
 

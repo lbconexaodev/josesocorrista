@@ -24,7 +24,7 @@ export function ProposalsPage({ scrollToSection }: ProposalsPageProps) {
         </h2>
         <p className="text-lg md:text-xl font-medium text-on-surface-variant leading-relaxed max-w-2xl border-l-4 border-primary pl-6 md:pl-8">
           José Socorrista defende uma atuação estadual com base na vivência de quem trabalha
-          no atendimento à população, já passou pelo transporte pesado e conhece de perto
+          no atendimento à população, já trabalhou como motorista profissional e conhece de perto
           a realidade de quem precisa de serviços públicos mais humanos e eficientes.
         </p>
       </section>
